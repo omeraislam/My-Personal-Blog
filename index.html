@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Perter Parker</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#enviorment">Enviorment</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<!--
+Start coding from here
+-->
+  <div class="container">
+    <div class="page-header" id="travel">
+      <h2 class="text-capitalize">places must visit</h2>
+      </div>
+      <div class="trave_mainDiv">
+      <img class="img-responsive" src="San-Francisco-Skyline-iStock.jpeg">
+          <h4 class="text-capitalize"><kbd>san francisco</kbd></h4>
+          <hr >
+          <h5 class="text-success text-left text-capitalize">
+          <p class="text-muted text-left" >San Francisco is a very beautiful place to visit. It is where the Place of Fine Arts is located and has a very nice small lake.</p>
+          </h5>
+      </div>
+      <div class="page-header" id="movies">
+      <h2 class="text-capitalize">review on the movies</h2>
+      </div>
+      <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+      <span class="glyphicon glyphicon-film" ></span> Avengers Endgame<i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="avengers_endgame" class="collapse">
+      <div class="col-lg-3 col-md-3 col-xs-12">
+          <img src="movie1.jpeg" class="img-responsive img-thumbnail">
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-left text-capitalize">Excellent film to watch.
+              <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+              </h5>
+              <p>Great film to watch with family and friends.</p>
+          </div>
+      </div>
+    </div>
+ <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12"
+      id="environment">
+    <h2 class="text-capitalize">news about environment</h2>
+    </div>
+    <ul class="list-group">
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+        <h4>Inside the Indonesian cave where oldest animal art was found
+</h4>
+        <hr>
+        <img src="Cave.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >Archaeologists discovered the world’s oldest known animal cave painting in Indonesia. A panel showing wild pigs believed to have been made 45,500 years ago was found in a cave in a remote valley on the island of Sulawesi.</p>
+        <br>
+        </li>
+        <br>
+        <br>
+    </ul>
+    
+   <div class="page-header col-lg-12 col-md-12 col-xs-12" id="books">
+    <h2 class="text-capitalize">Books</h2>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+   <h3>Bill Gates</h3>
+        <h4>
+        <mark class="header_entrepreneur">
+            <i>
+            <sup><i class="fa fa-quote-left"></i></sup>
+                Reading is still the main way that I both learn new things and test my understanding.
+                <sup><i class="fa fa-quote-right"></i></sup>
+            </i>
+            </mark>
+        </h4>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12">
+    <h2 class="text-capitalize">List of Books</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#First_Space_Encyclopedia">
+   <img src="s1.jpg" class="img-responsive">
+        <hr >
+        <p class="text-primary">First Space Encyclopedia</p>
+    </div>
+    <div class="modal fade" id="First_Space_Encyclopedia">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">First Space Encyclopedia</h4>
+            </div>
+            <div class="modal-body">
+            <img src="s1.jpg" class="img-responsive img_modal">
+                <p class="p_modal">I read this book, and it was very enjoyable for me.<br>
+                <a href="https://www.amazon.com/First-Space-Encyclopedia-Reference-Galaxy/dp/1465443436/ref=sr_1_1?crid=3H5UNDUTQWI2F&keywords=first+space+encyclopedia&qid=1636515405&qsid=138-2030467-0166618&sprefix=first+space+en%2Caps%2C221&sr=8-1&sres=1465443436%2C0756633664%2C1409514315%2C0794528058%2C1426338562%2C0746041861%2C1465438068%2C1426310145%2C1426308469%2C0441013597%2C1541953428%2C1648768865%2C1912920484%2C0345477634%2C1646118367%2CB01AGIOSQ2&srpt=ABIS_BOOK" target="_blank"><b>BEST BUY LINK</b></a>
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <section id="contact">
+      <h2>About Me</h2>
+      <br>
+      <hr>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509916.957423575!2d-123.79759793610344!3d37.18430344877116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e0!3m2!1sen!2sus!4v1635302469599!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<hr style="width: 100%;">
+      <img src="profile-pic.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+      <h3>Omera Islam</h3>
+        <div class="contact_1" >
+
+           <a href="mailto:omeraislam@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;omeraislam@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+</section>
+
+
+</body>
+</html>
